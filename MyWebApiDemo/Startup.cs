@@ -36,7 +36,7 @@ namespace MyWebApiDemo
                 });
                 endpoints.MapGet("/test", async context =>
                 {
-                    await context.Response.WriteAsync("Ok Ok Ok Ok Ok Ok Ok Ok !");
+                    await context.Response.WriteAsync("Ok Ok Ok Ok Ok Ok Ok Ok !"); 
                 });
             });
         }
